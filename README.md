@@ -29,5 +29,5 @@ This encrypts using XOR and the AV can be skipped.
 
 ```powershell
 .\CypherExe.ps1 -ExecutablePath C:\temp\rubeus.enc -Decrypt
-[Rubeus.Program]::Main("""".split())
+[Rubeus.Program]::Main("".split())
 ```
